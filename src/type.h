@@ -1,11 +1,11 @@
 #pragma once
 
-typedef u8 unsigned char;
-typedef s8 char;
-typedef u16 unsigned short;
-typedef s16 short;
-typedef u32 unsigned int;
-typedef s32 int;
-typedef u64 unsigned long long;
-typedef s64 long long;
+typedef unsigned char u8;
+typedef char s8;
+typedef unsigned short u16;
+typedef short s16;
+typedef unsigned int u32;
+typedef int s32;
+typedef unsigned long long u64;
+typedef long long s64;
 
