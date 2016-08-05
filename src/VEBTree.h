@@ -1,16 +1,18 @@
 #pragma once
 
+#include "type.h"
+
 class VEBTree
 {
     private:
-        unsigned char m_min, m_max;
-        unsigned int m_u;
+        u8 m_min, m_max;
+        u32 m_u;
         VEBTree *m_summary;
         VEBTree **m_cluster;
     public:
-        unsigned int sqrt_u();
-        unsigned int high(unsigned int x);
-        unsigned int low(unsigned int x);
-        unsigned int index(unsigned int x, unsigned int y);
+        u32 sqrt_u();
+        u32 high(u32 x);
+        u32 low(u32 x);
+        u32 index(u32 x, u32 y);
 };
 
